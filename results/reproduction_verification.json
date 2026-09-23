@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-23",
+  "source_commit": "3cc30b25ef345626e76906299143c226571c4d67",
+  "method": "Clean git-archive checkout; redownload with hash verification; rerun all experiments in the locked local Python environment.",
+  "csv_checks": [
+    {
+      "file": "policy_results.csv",
+      "rows": 207,
+      "excluded_runtime_columns": [
+        "fit_seconds"
+      ],
+      "endpoints_match": true
+    },
+    {
+      "file": "contrasts.csv",
+      "rows": 60,
+      "excluded_runtime_columns": [],
+      "endpoints_match": true
+    },
+    {
+      "file": "closure_results.csv",
+      "rows": 480,
+      "excluded_runtime_columns": [
+        "prepare_seconds",
+        "fit_seconds"
+      ],
+      "endpoints_match": true
+    },
+    {
+      "file": "event_grid_results.csv",
+      "rows": 30,
+      "excluded_runtime_columns": [
+        "prepare_seconds",
+        "fit_seconds"
+      ],
+      "endpoints_match": true
+    }
+  ],
+  "policy_profile_jsons_identical": true,
+  "arxiv_source_rebuild_text_identical": true,
+  "manuscript_pages": 15,
+  "github_actions": "https://github.com/shi1720/prefix-certificate-retention/actions/runs/35827370157",
+  "github_actions_conclusion": "success"
+}
