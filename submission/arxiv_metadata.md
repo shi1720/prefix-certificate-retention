@@ -11,7 +11,7 @@ Possible cross-list: math.OC (Optimization and Control), subject to arXiv's
 category and moderation decisions.
 
 The manuscript abstract is in `paper/main.tex`. The title, author and abstract
-should match the PDF. Suggested comment: "16 pages, 5 figures; code and complete
+should match the PDF. Suggested comment: "5 figures; full proofs, code and complete
 trace-replay artifacts available at the linked repository." Check the final
 page count before entering this field.
 

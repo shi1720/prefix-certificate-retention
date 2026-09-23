@@ -1,12 +1,12 @@
 {
-  "main.tex": "d411d2f177cb513325bac169330ce804dfa26e407733680449c9641ce7f3a400",
+  "main.tex": "ce142bd37f7307fd1cdc04bd41ea6f517db67d216a3e65e93cbed8546134f7fa",
   "references.bib": "19c09340a37b4fcd3e93dc49664d1816b7cb8463b304014361a6333e6cab3f9f",
   "main.bbl": "eb661d51f71cadc4ebb03c81b6af322df430c75ce2041d695193f43d1c6ff9d9",
-  "figures/budget_frontiers.pdf": "6f4a9e99d25377853763a0b4216f3cd4db2c22801e53a40fe730be11fb048da3",
-  "figures/certificate_model.pdf": "2fed8807ebe44d4effb9c89775996e8dcf9467ccdf474d3941a3e3b447099289",
-  "figures/event_grid_effect.pdf": "e0854365279643a94c4ccb9d86babc919ea5397a99f2bb39d41ae307e2774725",
-  "figures/test_tradeoffs.pdf": "d69282c0df677d2b811b9322276ff1e06ce7aa5525182cc85fe5484653c6a543",
-  "figures/utility_differences.pdf": "959f4feed82fef0955e3d6eec620635cc0c496d9daced2adede69dd179e20df0",
+  "figures/budget_frontiers.pdf": "1ce0ed0c488167228832e65beb16340870057b705a26849e03a980f5d157ac86",
+  "figures/certificate_model.pdf": "bd048b1a6cce73e95eaedcfeb170174cbd942669ddef00938d0f468ac59a7f8a",
+  "figures/event_grid_effect.pdf": "4104b1faf27a720a67ac46c2a90663c5170e939b2fd8be50bc89bf3f9a16adce",
+  "figures/test_tradeoffs.pdf": "a70267f164e50810e90f7e109a6a5168939249485cfb8f3082e0fdbfc0786238",
+  "figures/utility_differences.pdf": "3a3bf24648e1b7cf43ec2ee80f6608b2d79c2c0817e9a6a03c1a7b09c86ea267",
   "tables/capacity_baselines.tex": "a5c5c01783c87b631d08c3cfa5de7582d700191b7f1f85766b12df1255611b88",
   "tables/complete_utilities.tex": "a699cfed1909171bb780f54c1af82e97b0aaafb555da4add66ee18acd3c9e593",
   "tables/runtime.tex": "2031d389b7a67d5685871c01cec1a1adf69a411f409f12eb8b36859159697274"

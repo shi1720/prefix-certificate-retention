@@ -115,7 +115,7 @@ for name,(x,y,label) in nodes.items():
 for a,b in [('yB2','yB1'),('z1','yA'),('z2','yB2'),('z2','z1')]:
     x,y,_=nodes[a];u,v,_=nodes[b]
     ax.add_patch(FancyArrowPatch((x,y),(u,v),arrowstyle='-|>',mutation_scale=12,color='#42546b',
-                               shrinkA=24,shrinkB=25,lw=1.3))
+                               shrinkA=14,shrinkB=14,lw=1.3))
 ax.text(5,4.65,'Timeout thresholds + prefix prerequisites',ha='center',fontsize=7.5,weight='bold')
 ax.text(5,4.15,r'Threshold weight: $-\lambda\,\Delta C_g$',ha='center',fontsize=8)
 ax.text(5,.53,'Positive hit rewards; arrows require their targets.',ha='center',fontsize=7)
