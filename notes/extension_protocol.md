@@ -26,3 +26,12 @@ Also perform a separate timestamp-resolution sensitivity: coalesce timestamps
 to 1 second, refit all compared TTL methods, and report the effect. This is
 necessary because the released traces have many adjacent 1-millisecond batches;
 it is not evidence of actual hardware response within a millisecond.
+
+## Subsequent mathematical extension
+
+After the fixed-grid comparisons, implement group-specific grids containing all
+positive training reuse ages. The breakpoint argument removes the discretization
+restriction for the same static finite-trace objective. Evaluate group-depth only
+at every existing price, with no retuning from test outcomes. This is an additional
+exploratory analysis, not a revised primary endpoint. Compare every price to the
+frozen grid; do not assume exact training optimization improves future workloads.

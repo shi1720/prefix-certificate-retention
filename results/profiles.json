@@ -6856,7 +6856,7 @@
         "group_0_band_8"
       ],
       "top": [],
-      "train_objective": 25904.97704000001
+      "train_objective": 25904.977040000012
     },
     "group_depth_0.1": {
       "ttl": [
@@ -7229,7 +7229,7 @@
         4907,
         9196
       ],
-      "train_objective": 32934.01040000001
+      "train_objective": 32934.010400000014
     },
     "depth_0.3": {
       "ttl": [
@@ -7418,7 +7418,7 @@
         4907,
         9196
       ],
-      "train_objective": 37875.87188
+      "train_objective": 37875.871880000006
     },
     "unconstrained_0.3": {
       "ttl": [
@@ -7581,7 +7581,7 @@
         4907,
         9196
       ],
-      "train_objective": 37893.270079999995
+      "train_objective": 37893.27008
     },
     "global_1": {
       "ttl": [
@@ -7628,7 +7628,7 @@
         4907,
         9196
       ],
-      "train_objective": 9361.37439999998
+      "train_objective": 9361.374399999999
     },
     "depth_1": {
       "ttl": [
@@ -9651,7 +9651,7 @@
         "group_0_band_8"
       ],
       "top": [],
-      "train_objective": 91.21127400000029
+      "train_objective": 91.21127400000027
     },
     "group_depth_0.003": {
       "ttl": [
@@ -9814,7 +9814,7 @@
         9680,
         15070
       ],
-      "train_objective": 599.1598510000006
+      "train_objective": 599.1598510000005
     },
     "unconstrained_0.003": {
       "ttl": [
@@ -10024,7 +10024,7 @@
         9680,
         15070
       ],
-      "train_objective": 13.720390000000005
+      "train_objective": 13.720390000000002
     },
     "depth_0.01": {
       "ttl": [
@@ -10213,7 +10213,7 @@
         9680,
         15070
       ],
-      "train_objective": 13.720390000000005
+      "train_objective": 13.720390000000002
     },
     "unconstrained_0.01": {
       "ttl": [
@@ -10775,7 +10775,7 @@
         9680,
         15070
       ],
-      "train_objective": 31.636429999999976
+      "train_objective": 31.636429999999997
     },
     "global_0.1": {
       "ttl": [

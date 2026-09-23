@@ -29,6 +29,15 @@ def test_zero_and_ties():
     assert r['cost'] == 4
 
 
+def test_decimal_boundaries_use_integer_source_time():
+    req=[Request(.3,(1,)),Request(.4,(1,))]
+    g=Grouping(req,'global')
+    h,c=tables(req,.5,g,np.array([0.,.1]))
+    out=replay(req,.5,g,[.1])
+    assert h[0,1]==out['hits']==1
+    assert abs(c[0,1]-out['cost'])<1e-12
+
+
 def test_orphans_overcount_and_terminal_censoring():
     req = [Request(0, (1, 2)), Request(5, (1, 2))]
     g = Grouping(req, 'depth')

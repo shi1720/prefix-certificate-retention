@@ -28,4 +28,4 @@ synthetic price=0.03 selected=depth utility=0.0
 synthetic price=0.1 selected=depth utility=0.0
 synthetic price=0.3 selected=depth utility=0.0
 synthetic price=1 selected=depth utility=0.0
-Completed {'elapsed_seconds': 23.019802291993983, 'python': '3.12.14', 'platform': 'macOS-27.0-arm64-arm-64bit', 'grid': [0.0, 0.001, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 60.0, 120.0, 300.0, 600.0, 900.0], 'prices': [0.0, 0.0001, 0.0003, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1.0], 'seed': 20260923, 'protocol_sha256': '3f47a960f95a3f7b13fbf68dfc8fab51fde3f12a2f9b7422b0a06497b9a31719'}
+Completed {'elapsed_seconds': 25.334874374995707, 'python': '3.12.14', 'platform': 'macOS-27.0-arm64-arm-64bit', 'grid': [0.0, 0.001, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 60.0, 120.0, 300.0, 600.0, 900.0], 'prices': [0.0, 0.0001, 0.0003, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1.0], 'seed': 20260923, 'protocol_sha256': '3f47a960f95a3f7b13fbf68dfc8fab51fde3f12a2f9b7422b0a06497b9a31719'}

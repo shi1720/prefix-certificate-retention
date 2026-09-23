@@ -3,9 +3,14 @@ import heapq
 from itertools import groupby
 from collections import OrderedDict
 import numpy as np
+from .trace import TICKS, Request
 
 
 def replay(requests, horizon, grouping, ttl, bucket_seconds=60.):
+    requests = [Request(round(r.time*TICKS), r.blocks) for r in requests]
+    horizon = round(horizon*TICKS)
+    bucket_seconds = round(bucket_seconds*TICKS)
+    ttl = np.rint(np.asarray(ttl)*TICKS).astype(np.int64)
     expiry = {}
     queue = []
     used = 0
@@ -56,7 +61,7 @@ def replay(requests, horizon, grouping, ttl, bucket_seconds=60.):
                 bins[k, 0] += int(prefix_ok)
                 bins[k, 2] += 1
                 total += 1
-                insert[block] = float(ttl[g])
+                insert[block] = int(ttl[g])
         # Simultaneous reads complete; expired-at-t blocks not refreshed disappear.
         advance(t, inclusive=True)
         for block, duration in insert.items():
@@ -69,7 +74,8 @@ def replay(requests, horizon, grouping, ttl, bucket_seconds=60.):
             heapq.heappush(queue, (et, block))
         peak = max(peak, used)
     advance(horizon, inclusive=True)
-    return dict(hits=hits, raw_hits=raw_hits, input_blocks=total, cost=area,
+    bins[:,1] /= TICKS
+    return dict(hits=hits, raw_hits=raw_hits, input_blocks=total, cost=area/TICKS,
                 mean_blocks=area/horizon, peak_blocks=peak,
                 hit_rate=hits/total if total else 0., bins=bins)
 

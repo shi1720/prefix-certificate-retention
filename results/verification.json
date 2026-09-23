@@ -1,0 +1,13 @@
+{
+  "requests": 39632,
+  "production_derived_requests": 35639,
+  "native_cases": 120,
+  "coherent_equal_cases": 118,
+  "max_coherence_gap": 4.717995999999403,
+  "max_native_flow_residual": 1.6370904631912708e-11,
+  "max_event_flow_residual": 5.820766091346741e-11,
+  "data_hashes_verified": true,
+  "full_closure_rows": 480,
+  "event_grid_rows": 30,
+  "continuous_training_dominance_verified": true
+}

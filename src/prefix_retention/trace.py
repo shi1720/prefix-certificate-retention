@@ -7,6 +7,7 @@ import numpy as np
 GRID = np.array([0, .001, .1, .3, 1, 3, 10, 30, 60, 120, 300, 600, 900.])
 PRICES = np.array([0, .0001, .0003, .001, .003, .01, .03, .1, .3, 1.])
 DEPTH_ENDS = np.array([1, 2, 4, 8, 16, 32, 64, 128, np.inf])
+TICKS = 1_000_000  # integer microseconds; source timestamps have millisecond resolution
 
 
 @dataclass
@@ -102,12 +103,14 @@ def tables(requests, horizon, grouping, grid=GRID):
     h = np.zeros((len(grouping.parents), len(grid)))
     c = np.zeros_like(h)
     for block, times in events.items():
-        ts = np.array(sorted(times))
+        original = sorted(times)
+        ts = np.rint(np.array(original)*TICKS).astype(np.int64)
+        grid_ticks = np.rint(np.asarray(grid)*TICKS).astype(np.int64)
         g = node[block]
         if len(ts) > 1:
             gaps = np.diff(ts)
-            counts = np.array([times[t] for t in ts[1:]])
-            h[g] += ((gaps[:, None] <= grid) & (grid > 0)).T @ counts
-        exposure = np.diff(np.append(ts, horizon))
-        c[g] += np.minimum(exposure[:, None], grid).sum(axis=0)
+            counts = np.array([times[t] for t in original[1:]])
+            h[g] += ((gaps[:, None] <= grid_ticks) & (grid_ticks > 0)).T @ counts
+        exposure = np.diff(np.append(ts, round(horizon*TICKS)))
+        c[g] += np.minimum(exposure[:, None], grid_ticks).sum(axis=0)/TICKS
     return h, c

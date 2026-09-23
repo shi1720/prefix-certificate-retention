@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and this reproducible artifact when using this work."
+title: "Exact Memory-Time Optimization for Prefix-Cached Language Model Serving"
+type: software
+authors:
+  - family-names: Gupta
+    given-names: Shivam
+    affiliation: Independent Researcher
+version: 0.1.0
+date-released: 2026-09-23
+repository-code: "https://github.com/shi1720/prefix-certificate-retention"
+license: MIT
+keywords:
+  - prefix caching
+  - maximum closure
+  - time-to-live
+  - language model serving

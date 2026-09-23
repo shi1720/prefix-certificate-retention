@@ -1,0 +1,35 @@
+\begin{tabular}{llrrrr}
+\toprule
+Trace & Policy & Capacity & Hit fraction & Mean blocks & Peak blocks\\
+\midrule
+Conversation & LRU & 256 & 0.04625 & 255.33 & 256\\
+Conversation & FIFO & 256 & 0.04259 & 255.33 & 256\\
+Conversation & LRU & 1024 & 0.04957 & 1018.52 & 1024\\
+Conversation & FIFO & 1024 & 0.04720 & 1018.52 & 1024\\
+Conversation & LRU & 4096 & 0.09753 & 4026.41 & 4096\\
+Conversation & FIFO & 4096 & 0.09245 & 4026.41 & 4096\\
+Conversation & LRU & 16384 & 0.27686 & 15003.35 & 16384\\
+Conversation & FIFO & 16384 & 0.24975 & 15003.35 & 16384\\
+Conversation & Unbounded & -- & 0.34339 & 38862.20 & 73542\\
+\midrule
+Tool agent & LRU & 256 & 0.36355 & 255.38 & 256\\
+Tool agent & FIFO & 256 & 0.33270 & 255.38 & 256\\
+Tool agent & LRU & 1024 & 0.37253 & 1018.67 & 1024\\
+Tool agent & FIFO & 1024 & 0.36279 & 1018.67 & 1024\\
+Tool agent & LRU & 4096 & 0.41423 & 4024.92 & 4096\\
+Tool agent & FIFO & 4096 & 0.40727 & 4024.92 & 4096\\
+Tool agent & LRU & 16384 & 0.53841 & 14909.48 & 16384\\
+Tool agent & FIFO & 16384 & 0.51924 & 14909.48 & 16384\\
+Tool agent & Unbounded & -- & 0.57223 & 35768.20 & 67335\\
+\midrule
+Synthetic & LRU & 256 & 0.03526 & 255.69 & 256\\
+Synthetic & FIFO & 256 & 0.03662 & 255.69 & 256\\
+Synthetic & LRU & 1024 & 0.14841 & 1016.80 & 1024\\
+Synthetic & FIFO & 1024 & 0.15305 & 1016.80 & 1024\\
+Synthetic & LRU & 4096 & 0.41506 & 3942.27 & 4096\\
+Synthetic & FIFO & 4096 & 0.39546 & 3942.27 & 4096\\
+Synthetic & LRU & 16384 & 0.70769 & 12824.97 & 16384\\
+Synthetic & FIFO & 16384 & 0.69476 & 12824.97 & 16384\\
+Synthetic & Unbounded & -- & 0.70793 & 13317.67 & 18074\\
+\bottomrule
+\end{tabular}

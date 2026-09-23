@@ -11,3 +11,7 @@ tmp/
 submission/private/
 .DS_Store
 dist/
+*.blg
+output/pdf/main.bbl
+output/pdf/main.pdf
+output/poster-utility.pdf
