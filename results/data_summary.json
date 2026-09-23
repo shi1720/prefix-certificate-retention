@@ -1,0 +1,74 @@
+{
+  "conversation": {
+    "requests": 12031,
+    "full_block_lookups": 276491,
+    "unique_full_blocks": 170899,
+    "horizon": 3536.999,
+    "input_tokens": 144793823,
+    "splits": {
+      "train": {
+        "requests": 4401,
+        "full_blocks": 111614,
+        "seconds": 1414.7996
+      },
+      "validation": {
+        "requests": 2447,
+        "full_blocks": 52867,
+        "seconds": 707.3997999999999
+      },
+      "test": {
+        "requests": 5183,
+        "full_blocks": 112010,
+        "seconds": 1414.7995999999998
+      }
+    }
+  },
+  "toolagent": {
+    "requests": 23608,
+    "full_block_lookups": 386041,
+    "unique_full_blocks": 159983,
+    "horizon": 3536.999,
+    "input_tokens": 202940084,
+    "splits": {
+      "train": {
+        "requests": 8779,
+        "full_blocks": 152640,
+        "seconds": 1414.7996
+      },
+      "validation": {
+        "requests": 4832,
+        "full_blocks": 75652,
+        "seconds": 707.3997999999999
+      },
+      "test": {
+        "requests": 9997,
+        "full_blocks": 157749,
+        "seconds": 1414.7995999999998
+      }
+    }
+  },
+  "synthetic": {
+    "requests": 3993,
+    "full_block_lookups": 117888,
+    "unique_full_blocks": 40148,
+    "horizon": 1022.025,
+    "input_tokens": 61194628,
+    "splits": {
+      "train": {
+        "requests": 1512,
+        "full_blocks": 34198,
+        "seconds": 408.81
+      },
+      "validation": {
+        "requests": 807,
+        "full_blocks": 21807,
+        "seconds": 204.40499999999992
+      },
+      "test": {
+        "requests": 1674,
+        "full_blocks": 61883,
+        "seconds": 408.81000000000006
+      }
+    }
+  }
+}
