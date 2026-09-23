@@ -29,6 +29,6 @@ Official sources checked on 23 September 2026:
   has not been established for this author, so no grant application is included.
 
 Private portal state and receipts are excluded from the public repository.
-This document does not represent acceptance, conference registration or arXiv
-publication. The conference's final author declarations must be accepted before
-the abstract is formally submitted.
+The poster abstract was formally submitted on 23 September 2026; the portal
+confirmed **Submitted**. This records submission only, not acceptance, conference
+registration or arXiv publication.

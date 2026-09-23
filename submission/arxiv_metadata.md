@@ -6,14 +6,17 @@ Author: Shivam Gupta
 
 Affiliation: Independent Researcher, Delhi, India
 
-Suggested primary category: cs.DC (Distributed, Parallel, and Cluster Computing).
-Possible cross-list: math.OC (Optimization and Control), subject to arXiv's
-category and moderation decisions.
+Proposed primary category: cs.LG (Machine Learning), for efficient language-model
+inference. Proposed cross-list: cs.DC (Distributed, Parallel, and Cluster
+Computing), for the serving-system application. The formal contribution concerns
+cache retention rather than a new learning algorithm; final classification is
+subject to arXiv moderation.
 
-The manuscript abstract is in `paper/main.tex`. The title, author and abstract
-should match the PDF. Suggested comment: "5 figures; full proofs, code and complete
-trace-replay artifacts available at the linked repository." Check the final
-page count before entering this field.
+The manuscript abstract is in `paper/main.tex` and `arxiv_abstract.txt`. The title,
+author and abstract should match the PDF. Proposed comment: "15 pages, 5 figures.
+Code and reproducibility artifacts: https://github.com/shi1720/prefix-certificate-retention".
+The manuscript and original figures are already licensed CC BY 4.0 in the public
+repository; the corresponding arXiv license is proposed, pending approval.
 
 The `output/prefix-certificate-retention-arxiv.tar.gz` source package contains
 LaTeX, the compiled bibliography, original vector figures and generated tables.
