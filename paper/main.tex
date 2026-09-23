@@ -722,6 +722,7 @@ occupancy is not a separate capacity guarantee for the TTL methods.
 \input{tables/capacity_baselines.tex}
 \end{center}
 
+\clearpage
 \section{Reproduction and audit details}
 The repository's \texttt{Makefile} separates data download, tests, experiments,
 figures and typesetting. The source revision and file digests are recorded in
@@ -742,4 +743,11 @@ split boundaries remain representable. Event-grid rounding is downward to actual
 training ages, which explains why tied training optima can transfer differently
 from longer fixed-grid timeouts. All numerical results in this manuscript were
 regenerated after these implementation corrections.
+
+\section*{Computational assistance}
+An OpenAI Codex generative-AI assistant was used to develop the formulation,
+implement and test the algorithms, run the computational experiments, and draft
+and revise the manuscript. Reported numerical results were produced by the
+accompanying executable code using the cited public traces. The author is
+responsible for the manuscript and its conclusions.
 \end{document}

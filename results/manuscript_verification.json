@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-23",
+  "change": "Add author-approved computational-assistance statement; paginate audit appendix separately.",
+  "manuscript_pages": 16,
+  "scientific_content_changed": false,
+  "code_or_experiment_outputs_changed": false,
+  "local_compile": "Tectonic: success",
+  "arxiv_compile": "pdfLaTeX / TeX Live 2025: SUCCEEDED; 16 pages",
+  "arxiv_undefined_reference_or_overflow_warnings": false,
+  "visual_review": "All arXiv-rendered pages inspected in contact sheet; revised local appendix pages inspected individually.",
+  "paper_sha256": "37fe91a7ef3ef53dc0550924766c9164d82b067930905668b7229e9d4ed1469a",
+  "source_archive_sha256": "f8fdebc829413d6cc06e5dd23f43e2481e25bc2b41c5a24468e4ddad4aa9cc3c",
+  "prior_experiment_verification": "results/reproduction_verification.json"
+}
